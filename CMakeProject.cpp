@@ -1,12 +1,10 @@
 ﻿// CMakeProject.cpp: определяет точку входа для приложения.
 //
 
-#include "CMakeProject.h"
-
-using namespace std;
+#include <iostream>
 
 int main()
 {
-	cout << "Hello from CMake in VS" << endl;
+	std::cout << "Hello from CMake in VS" << std::endl;
 	return 0;
 }
